@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "secrets1": {
+      "restored": true,
+      "restoreTime": "2022-06-30T12:27:44.020629Z"
+    },
+    "mssql1": {
+      "restored": true,
+      "restoreTime": "2022-06-30T12:27:48.1171565Z"
+    }
+  },
+  "parameters": {
+    "mssql1.subscriptionId": {
+      "Name": "mssql1.subscriptionId",
+      "Type": "subscription",
+      "Value": "230b49a0-bb61-4415-8747-bc061a322caf"
+    },
+    "mssql1.resourceGroupName": {
+      "Name": "mssql1.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "OnlineRestaurant-res"
+    }
+  }
+}

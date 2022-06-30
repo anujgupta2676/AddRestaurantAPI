@@ -1,0 +1,19 @@
+apiVersion : apps/v1
+kind: Deployment
+metadata:
+  name: "onlinerestaurantaks-eda6"
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: "onlinerestaurantaks-eda6"
+  template:
+    metadata:
+      labels:
+        app: "onlinerestaurantaks-eda6"
+    spec:
+      containers:
+        - name: "onlinerestaurantaks-eda6"
+          image: "onlinerestaurantnewacs.azurecr.io/onlinerestaurantaks"
+          ports:
+          - containerPort: 80
